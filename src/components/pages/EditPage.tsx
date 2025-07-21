@@ -25,8 +25,6 @@ export const EditPage = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
-  console.log(id)
-
   const attraction = items.find((obj) => obj.id === id);
 
   const [formData, setFormData] = useState<Attraction>({
