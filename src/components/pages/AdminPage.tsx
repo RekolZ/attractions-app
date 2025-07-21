@@ -46,7 +46,7 @@ const AdminPage = () => {
             <Link to={'/'}>
                 <Button>Перейти на главную</Button>
             </Link>
-            <Link to={'/create'}>
+            <Link to={'/edit'}>
                 <Button style={{marginLeft: 10}}>Создать</Button>
             </Link>
 
